@@ -72,7 +72,7 @@ def get_charadas():
     for item in lista:
         charadas.append(item.to_dict())
 
-    return jsonify(charadas), 
+    return jsonify(charadas), 200
 
 
 @app.route("/charadas/aleatorias", methods=['GET'])
