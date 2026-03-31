@@ -1,0 +1,6 @@
+flask
+flask-cors
+firebase-admin
+python-dotenv
+flask==3.0.0
+firebase-admin==6.2.0
